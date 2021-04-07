@@ -57,7 +57,7 @@ public class MainActivity extends AppCompatActivity {
 
                         b.putString("b", password.trim());
 
-                        Intent i = new Intent(getApplicationContext(), data_kontak.class);
+                        Intent i = new Intent(getApplicationContext(), DataKontak.class);
 
                         i.putExtras(b);
 
